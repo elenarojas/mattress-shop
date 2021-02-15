@@ -1,3 +1,7 @@
+# Mattress Shop
+
+Author: Elena Rojas.
+
 ## Available Scripts
 
 In the project directory, you can run:

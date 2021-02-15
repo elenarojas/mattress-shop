@@ -1,0 +1,15 @@
+.DS_Store
+.env*
+.idea
+build
+coverage
+.vscode
+debug.log
+newrelic_agent.log
+node_modules
+npm-debug.log
+reports
+stats.json
+yarn-debug.log*
+yarn-error.log*
+jsdoc/doc

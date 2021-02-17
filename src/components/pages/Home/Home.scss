@@ -1,0 +1,56 @@
+@import "../../../assets/styles/colors.scss";
+@import "../../../assets/styles/globals.scss";
+
+.home-page {
+  display: flex;
+
+  @media (min-width: 648px) {
+    justify-content: space-between;
+  }
+
+  @media (max-width: 647px) {
+    flex-wrap: wrap;
+  }
+
+  img {
+    @media (min-width: 648px) {
+      max-width: 48%;
+    }
+    @media (max-width: 647px) {
+      max-width: 100%;
+    }
+  }
+
+  section {
+    min-width: 46%;
+
+    @media (max-width: 647px) {
+      min-width: 100%;
+      margin: 30px 0 0;
+    }
+  }
+
+  &__selected-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  &__stars {
+    margin-top: 20px;
+  }
+
+  &__add-btn {
+    background-color: $yellow1;
+    width: 100%;
+    color: white;
+    height: 33px;
+    margin-top: 25px;
+    opacity: 1;
+    transition: 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../../assets/styles/colors.scss';
+
+.stars {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+  li {
+    &.on {
+      color: $yellow1;
+    }
+    &.off {
+      color: $gray2;
+    }
+  }
+}

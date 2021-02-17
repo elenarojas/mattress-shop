@@ -1,0 +1,25 @@
+@import "../../../assets/styles/colors.scss";
+
+.cart {
+  position: relative;
+
+  &__icon {
+    font-size: 30px;
+    color: $brown1;
+  }
+
+  &__text {
+    color: $white;
+    background: $brown2;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -11px;
+  }
+}

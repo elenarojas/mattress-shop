@@ -1,0 +1,53 @@
+/** variables **/
+$containers: (
+  'mobile': 100%,
+  'tablet': 960px,
+  'desktop': 1140px,
+  'wide': 1140px
+);
+
+$headerHeight: 100px;
+
+/** fonts **/
+@font-face {
+  font-family: 'Questrial';
+  src: local('Questrial'), url(../fonts/Questrial/Questrial-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSerifPro';
+  src: local('SourceSerifPro'), url(../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSerifPro';
+  src: local('SourceSerifPro'), url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSerifPro';
+  src: local('SourceSerifPro'), url(../fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/** mixins **/
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 960px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}

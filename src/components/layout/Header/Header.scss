@@ -1,0 +1,39 @@
+@import "../../../assets/styles/colors.scss";
+@import "../../../assets/styles/globals.scss";
+
+.app-header {
+  height: $headerHeight;
+  background: $white;
+  border-bottom: 1px solid $gray1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+  img {
+    height: 39px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+
+  &__language-switch {
+    margin-right: 20px;
+
+    @media (max-width: 340px) {
+      font-size: 12px;
+      margin-right: 2px;
+    }
+  }
+}

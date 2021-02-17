@@ -1,0 +1,11 @@
+@import "../../../assets/styles/colors.scss";
+@import "../../../assets/styles/globals.scss";
+
+footer {
+  background: $white;
+  color: $brown1;
+  line-height: 30px;
+  border-top: 1px solid $gray1;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+@import '../../../assets/styles/colors.scss';
+
+.cart-page {
+  .cart-items {
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+      border-bottom: 1px solid $gray2;
+
+      img {
+        width: 300px;
+        border-radius: 10px;
+
+        @media (max-width: 500px) {
+          max-width: 40%;
+        }
+      }
+    }
+
+    .cart-item {
+      &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        button {
+          color: $brown1;
+        }
+      }
+
+      &__quantity {
+        background-color: $brown2;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: $white;
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .total {
+    margin-top: 30px;
+    text-align: right;
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}

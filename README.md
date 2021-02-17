@@ -2,26 +2,24 @@
 
 Author: Elena Rojas.
 
+## Prerequisites
+
+Node (version 14.0.0 or latest)
+
+npm (version 6.14.5 or latest)
+
 ## Setup Guide
 
-1. Download project code
-
-2. Install nvm (latest version):
-
-3. Install node latest version
-
-4. Install npm latest version
-
-5. Install yarn
+1. Install yarn
 
      [Yarn installation page](https://yarnpkg.com/lang/en/docs/install)
 
-6. Install project libraries:
+2. Install project libraries:
 
-     Go to project folder and run:
-     ```
-     yarn install
-     ```
+  Go to project folder and run:
+
+### `yarn install`
+
 
 ## Available Scripts
 

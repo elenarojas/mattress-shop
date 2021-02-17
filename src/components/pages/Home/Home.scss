@@ -13,6 +13,10 @@
   }
 
   img {
+    object-fit: cover;
+    object-position: left top;
+    height: 300px;
+
     @media (min-width: 648px) {
       max-width: 48%;
     }

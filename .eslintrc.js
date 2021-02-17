@@ -1,3 +1,5 @@
+const env = process.env.NODE_ENV;
+
 module.exports = {
   extends: [
     'airbnb-typescript',
@@ -26,10 +28,10 @@ module.exports = {
     },
     ecmaVersion: 2018,
     sourceType: 'module',
-    project: './tsconfig.json',
   },
   rules: {
     'linebreak-style': 'off',
+    'no-console': env !== 'production' ? 0 : 1,
     'prettier/prettier': [
       'error',
       {

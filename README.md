@@ -2,6 +2,27 @@
 
 Author: Elena Rojas.
 
+## Setup Guide
+
+1. Download project code
+
+2. Install nvm (latest version):
+
+3. Install node latest version
+
+4. Install npm latest version
+
+5. Install yarn
+
+     [Yarn installation page](https://yarnpkg.com/lang/en/docs/install)
+
+6. Install project libraries:
+
+     Go to project folder and run:
+     ```
+     yarn install
+     ```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -40,5 +61,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 | [History](https://github.com/ReactTraining/history)  |  Manage session history anywhere JavaScript runs.
 | [typescript](https://www.typescriptlang.org/) | TypeScript is a typed superset of JavaScript that compiles to plain JavaScript
 | [Jest](https://facebook.github.io/jest/) | Automated tests with built-in expect assertions
+| [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) | A very light-weight solution for testing React components. 
 | [ESLint](http://eslint.org/)| Lint JS. Reports syntax and style issues. extending Aribnb preferences  [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) for additional React specific linting rules.
+| [Prettier](https://prettier.io/) | An opinionated code formatter.
 | [SASS](http://sass-lang.com/) | Compiled CSS styles with variables, functions, and more. |
